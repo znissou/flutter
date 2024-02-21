@@ -10,6 +10,12 @@ Now in your Dart code, you can use:
 
 ``import 'package:flutter_bloc/flutter_bloc.dart';``
 
+## table of content
+- BlocProvider
+- BlocProvider.value
+- BlocBuilder
+- BlocListener
+
 ## BlocBuilder 
 
 BlocBuilder is a Flutter widget which requires a `bloc` and a `builder` function. BlocBuilder handles building the widget in response to new states. 
