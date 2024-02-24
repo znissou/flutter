@@ -15,6 +15,8 @@ Now in your Dart code, you can use:
 - BlocProvider.value
 - BlocBuilder
 - BlocListener
+- BlocConsumer
+- BlocSelector
 
 ## BlocBuilder 
 
@@ -261,7 +263,11 @@ BlocConsumer<BlocA, BlocAState>(
 
 ## RepositoryProvider
 
+to understand wher Repository stands in all this you must understand the BloC pattern for flutter
 
+<img src='Screenshot 2024-02-24 154224.png'>
+
+The role of Repository as we can see is handling data and interacting with the data source, So it retreive the data from the data source as in a raw format (like Json String) and handles it by doing something like Json deserialization.
 
 ### To check the source click <a href='https://bloclibrary.dev/#/flutterbloccoreconcepts'>here.</a>
 
